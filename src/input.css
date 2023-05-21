@@ -25,7 +25,7 @@
 }
 
 .button-container {
-	@apply flex w-full flex-col justify-center space-y-6 px-10 text-xl text-white md:flex-row md:space-x-4 md:space-y-0;
+	@apply flex w-full flex-col justify-center space-y-6 px-8 text-xl text-white md:flex-row md:space-x-4 md:space-y-0;
 }
 
 header {
@@ -38,4 +38,8 @@ header {
 	header {
 		background-image: url('../assets/bg-header-mobile.png');
 	}
+}
+
+.ficon:hover {
+	filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg) brightness(101%) contrast(94%);
 }
