@@ -12,33 +12,70 @@
 		/>
 		<link rel="stylesheet" href="./css/style.css" />
 		<link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/x-icon" />
-		<title>Clipboard Landing Page</title>
+		<title>Clipboard</title>
 	</head>
 	<body>
 		<!-- Hero Section -->
 		<header>
-			<div class="section-container px-10 pt-16">
+			<div class="section-container pt-16">
 				<img src="./assets/logo.svg" alt="Clipboard company logo" class="mx-auto my-16" />
-				<h1 class="mb-6 text-4xl font-bold text-dark-gray-blue md:text-5xl">A history of everything you copy</h1>
-				<p class="max-w-3xl mx-auto mb-10 text-2xl text-grayish-blue">
+				<h1 class="mb-6 text-4xl font-bold text-dark-grayish-blue md:text-5xl">A history of everything you copy</h1>
+				<p class="mx-auto mb-10 max-w-3xl text-2xl text-grayish-blue">
 					Clipboard allows you to track and organize everything you copy. Instantly acces your clipboard on all your devices.
 				</p>
 			</div>
 			<!-- Button Container -->
 			<div class="button-container">
-				<a href="#" class="p-4 px-8 rounded-full shadow-lg text-center bg-strong-cyan duration-200 hover:opacity-80">Downlowad for iOS</a>
-				<a href="#" class="p-4 px-8 rounded-full shadow-lg text-center bg-light-blue duration-200 hover:opacity-80">Downlowad for Mac</a>
+				<a href="#" class="rounded-full bg-strong-cyan p-4 px-8 text-center shadow-lg duration-200 hover:opacity-80">Downlowad for iOS</a>
+				<a href="#" class="rounded-full bg-light-blue p-4 px-8 text-center shadow-lg duration-200 hover:opacity-80">Downlowad for Mac</a>
 			</div>
 		</header>
 		<!-- Snippets Section -->
 		<main>
 			<div class="section-container my-20 px-20">
 				<h2>Keep track of your snipptes</h2>
-				<p class="max-w-3xl mx-auto mb-24 text-xl leading-9 text-center text-grayish-blue">
+				<p class="p-wide">
 					Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices.
 					Our iOS apps will help you organize everything.
 				</p>
 			</div>
+
+			<!-- Features Section -->
+			<section class="section-container my-20">
+				<div class="relative flex flex-col md:flex-row md:space-x-32">
+					<!-- Image -->
+					<div class="md:w-1/2">
+						<img src="./assets/image-computer.png" alt="Mac monitor" class="right-[50%] top-0 md:absolute" />
+					</div>
+					<!-- Items Container -->
+					<div class="mb-24 mt-16 flex flex-col space-y-12 text-xl md:mb-60 md:w-1/2 md:pl-16 md:text-left">
+						<!-- Item 1 -->
+						<div>
+							<h3>Quick Search</h3>
+							<p class="p-small">Easily search your snippets by content, category, web address, application and more!</p>
+						</div>
+						<!-- Item 2 -->
+						<div>
+							<h3>iCloud Sync</h3>
+							<p class="p-small">Instantly saves and syncs snippets across all your devices.</p>
+						</div>
+						<!-- Item 3 -->
+						<div>
+							<h3>Completely History</h3>
+							<p class="p-small">Retrieve any snippets from the first moment you started using the app.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Access Anywhere Section -->
+			<section class="section-container my-20">
+				<h2>Access Clipboard Anywhere</h2>
+				<p class="p-wide">
+					Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.
+				</p>
+				<img src="./assets/image-devices.png" alt="Moblie phone and tablet" class="mx-auto" />
+			</section>
 		</main>
 	</body>
 </html>

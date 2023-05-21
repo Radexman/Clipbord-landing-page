@@ -12,7 +12,7 @@ module.exports = {
 			colors: {
 				'strong-cyan': 'hsl(171, 66%, 44%)',
 				'light-blue': 'hsl(223, 100%, 69%)',
-				'dark-gray-blue': 'hsl(219, 10%, 33%)',
+				'dark-grayish-blue': 'hsl(219, 10%, 33%)',
 				'grayish-blue': 'hsl(201, 11%, 66%)',
 			},
 			fontFamily: {
