@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	h2 {
+		@apply mb-6 text-4xl font-bold text-dark-gray-blue md:text-5xl;
+	}
+}
+
+.section-container {
+	@apply max-w-6xl mx-auto text-center;
+}
+
+.button-container {
+	@apply flex flex-col justify-center px-10 w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
 header {
 	background-image: url('../assets/bg-header-desktop.png');
 	background-repeat: no-repeat;
