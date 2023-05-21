@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+	background-image: url('../assets/bg-header-desktop.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+@media screen and (max-width: 576px) {
+	header {
+		background-image: url('../assets/bg-header-mobile.png');
+	}
+}
